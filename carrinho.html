@@ -92,12 +92,12 @@
 					{% endfor %} -->
 				</div>
 			</div>
-			{% for row in produtosCard %}
+			<!-- {% for row in produtosCard %} -->
 			<div class="carrinho">
 				<div class="col-md-3 col-lg-3">
 					<!-- <h5>Itens</h5> -->
 
-					<img src="/assets/images/image-single-prod.jpg" alt="">
+					<img src="assets/images/image-single-prod.jpg" alt="">
 
 
 				</div>
@@ -123,7 +123,67 @@
 
 				</div>
 			</div>
-			{% endfor %}
+			<div class="carrinho">
+				<div class="col-md-3 col-lg-3">
+					<!-- <h5>Itens</h5> -->
+
+					<img src="assets/images/image-single-prod.jpg" alt="">
+
+
+				</div>
+				<div class="col-md-4 col-lg-4">
+					<!-- <h5>descrição</h5> -->
+
+					<p>{{row.short_description}}</p>
+
+				</div>
+				<div class="col-md-3 col-lg-3">
+					<!-- <h5>quantidade</h5> -->
+
+					<div class="quantity">
+					  <input type="number" min="1" max="99" step="1" value="{{row.quantity}}">
+					</div>
+
+
+				</div>
+				<div class="col-md-2 col-lg-2">
+					<!-- <h5>Remover</h5> -->
+
+					<p>X</p>
+
+				</div>
+			</div>
+			<div class="carrinho">
+				<div class="col-md-3 col-lg-3">
+					<!-- <h5>Itens</h5> -->
+
+					<img src="assets/images/image-single-prod.jpg" alt="">
+
+
+				</div>
+				<div class="col-md-4 col-lg-4">
+					<!-- <h5>descrição</h5> -->
+
+					<p>{{row.short_description}}</p>
+
+				</div>
+				<div class="col-md-3 col-lg-3">
+					<!-- <h5>quantidade</h5> -->
+
+					<div class="quantity">
+					  <input type="number" min="1" max="99" step="1" value="{{row.quantity}}">
+					</div>
+
+
+				</div>
+				<div class="col-md-2 col-lg-2">
+					<!-- <h5>Remover</h5> -->
+
+					<p>X</p>
+
+				</div>
+			</div>
+			<!-- {% endfor %} -->
 
 
 
