@@ -57,73 +57,133 @@
 	</div>
 </header>
 
-
-<section class="contato">
-	<div class="container">
-		<div class="col-sm-12 col-md-4 col-lg-4 col-lg-offset-1">
-			<h3>Contato</h3>
-			<p>Necessita de mais informações? Gostaria de deixar uma sugestão ou comentário? Preencha o formulário ao lado: </p>
-
-			<small>
-				<h5>Endereço</h5>
-				<strong>Rua Coronel Bento Bicudo, 754 <br>Piqueri - São Paulo/SP</strong>
-				<h5>telefone</h5>
-				<strong>(11) 3616 5015</strong>
-			</small>
-		</div>
-		<div class="col-sm-12 col-md-7 col-lg-7">
-			<div class="form-contato">
-				<form action="" method="post" accept-charset="utf-8">
-
-					<input type="text" name="nome" placeholder="* Nome completo">
-					<input type="text" name="telefone" placeholder="* Telefone ou Celular">
-					<input type="email" name="e-mail" placeholder="* E-mail">
-					<input type="" name="cidade" placeholder="* Cidade">
-
-					<select name="">
-						<option value="">* Estado</option>
-						<option value="">AC</option>
-						<option value="">AL</option>
-						<option value="">AP</option>
-						<option value="">AM</option>
-						<option value="">BA</option>
-						<option value="">CE</option>
-						<option value="">DF</option>
-						<option value="">ES</option>
-						<option value="">GO</option>
-						<option value="">MA</option>
-						<option value="">MT</option>
-						<option value="">MS</option>
-						<option value="">MG</option>
-						<option value="">PA</option>
-						<option value="">PB</option>
-						<option value="">PR</option>
-						<option value="">PE</option>
-						<option value="">PI</option>
-						<option value="">RJ</option>
-						<option value="">RN</option>
-						<option value="">RS</option>
-						<option value="">RO</option>
-						<option value="">RR</option>
-						<option value="">SC</option>
-						<option value="">SP</option>
-						<option value="">SE</option>
-						<option value="">TO</option>
-
-					</select>
-
-					<textarea name="" placeholder="Mensagem"></textarea>
-
-					<button type="">
-						ENVIAR
-					</button>
-
-				</form>
+	<section class="banner">
+		<div class="banner-slick">
+			<div>
+				<div class="banner_category"></div>
 			</div>
 		</div>
-	</div>
-</section>
+	</section>
 
+	<main class="category">
+		<div class="container">
+			<div class="col-lg-12">
+				<h3><strong>DICRÓICA</strong></h3>
+			</div>
+			<div class="col-sm-12 col-md-3 col-lg-3">
+				<div class="menu_category">
+					<div class="col-lg-12">
+						<h4>modelos</h4>
+						<ul>
+							<!-- {% for row in categoryList %} -->
+								<li><a href="/catalogo/{{ row.slug }}" title="">dicróica</a></li>
+								<li><a href="/catalogo/{{ row.slug }}" title="">led</a></li>
+							<!-- {% endfor %} -->
+						</ul>
+						<h4>Temperatura</h4>
+						<ul>
+							<li><a href="{{ category_url }}?temperatura=4000" title="">4000</a></li>
+							<li><a href="{{ category_url }}?temperatura=5000" title="">5000</a></li>
+							<li><a href="{{ category_url }}?temperatura=6000" title="">6500</a></li>
+						</ul>
+						<h4>Potencia</h4>
+						<ul>
+							<li><a href="{{ category_url }}?potencia=15" title="">15</a></li>
+							<li><a href="{{ category_url }}?potencia=20" title="">20</a></li>
+							<li><a href="{{ category_url }}?potencia=25" title="">25</a></li>
+							<li><a href="{{ category_url }}?potencia=30" title="">30</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-9 col-lg-9">
+				<div class="show_category">
+					<!-- {% for row in productList %} -->
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+							<article>
+								<div class="oferta-box">
+									<img src="/assets/images/home-prod-1.png" class="single-prod-catalog" id="{{row.id}}" alt="">
+									<h4>name</h4>
+									<p>description</p>
+									<div class="hover-info">
+										<div>
+											<p><a href="/produto/{{row.slug}}">saiba mais</a></p>
+											<img src="/assets/images/orcamento.png" alt="">
+										</div>
+									</div>
+								</div>
+							</article>
+
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+							<article>
+								<div class="oferta-box">
+									<img src="/assets/images/home-prod-1.png" class="single-prod-catalog" id="{{row.id}}" alt="">
+									<h4>name</h4>
+									<p>description</p>
+									<div class="hover-info">
+										<div>
+											<p><a href="/produto/{{row.slug}}">saiba mais</a></p>
+											<img src="/assets/images/orcamento.png" alt="">
+										</div>
+									</div>
+								</div>
+							</article>
+
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+							<article>
+								<div class="oferta-box">
+									<img src="/assets/images/home-prod-1.png" class="single-prod-catalog" id="{{row.id}}" alt="">
+									<h4>name</h4>
+									<p>description</p>
+									<div class="hover-info">
+										<div>
+											<p><a href="/produto/{{row.slug}}">saiba mais</a></p>
+											<img src="/assets/images/orcamento.png" alt="">
+										</div>
+									</div>
+								</div>
+							</article>
+
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+							<article>
+								<div class="oferta-box">
+									<img src="/assets/images/home-prod-1.png" class="single-prod-catalog" id="{{row.id}}" alt="">
+									<h4>name</h4>
+									<p>description</p>
+									<div class="hover-info">
+										<div>
+											<p><a href="/produto/{{row.slug}}">saiba mais</a></p>
+											<img src="/assets/images/orcamento.png" alt="">
+										</div>
+									</div>
+								</div>
+							</article>
+
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+							<article>
+								<div class="oferta-box">
+									<img src="/assets/images/home-prod-1.png" class="single-prod-catalog" id="{{row.id}}" alt="">
+									<h4>name</h4>
+									<p>description</p>
+									<div class="hover-info">
+										<div>
+											<p><a href="/produto/{{row.slug}}">saiba mais</a></p>
+											<img src="/assets/images/orcamento.png" alt="">
+										</div>
+									</div>
+								</div>
+							</article>
+
+						</div>
+					<!-- {% endfor %} -->
+				</div>
+			</div>
+		</div>
+	</main>
 
 
 

@@ -1,0 +1,147 @@
+
+
+header{
+    background-color: #eeeeee;
+    margin-bottom: 50px;
+}
+
+header img{
+    margin: 50px;
+}
+
+
+.container{
+        width: 1280px;
+}
+
+.container-fluid{
+    padding: 0px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    padding: 0px;
+}
+
+.form-group{
+    margin: 0px;
+}
+
+.act-form{
+    width: 50%!important;
+    margin: 30px auto!important;
+    display: block!important;
+}
+
+.cadastroProd {
+  margin-top: 200px;
+}
+
+.cadastroProd h4{
+  color: #505050;
+}
+
+.cadastroProd form input {
+  width: 100%;
+  padding: 15px 10px;
+  margin: 10px 0px;
+}
+
+.cadastroProd form label {
+  font-size: 18px;
+  display: block;
+  margin: 20px 0px;
+  border-bottom: 2px solid #2364ad;
+  color: #505050;
+}
+
+.cadastroProd form select {
+  width: 100%;
+  padding: 15px 10px;
+  margin: 10px 0px;
+}
+
+.cadastroProd form p {
+  margin: 20px 10px 30px;
+}
+
+.cadastroProd #economia .slider-selection, .cadastroProd #sustentabilidade .slider-selection, .cadastroProd #iluminacao .slider-selection, .cadastroProd #controle .slider-selection, .cadastroProd #on-off .slider-selection, .cadastroProd #dimerizavel .slider-selection {
+  background: #BABABA;
+}
+
+.cadastroProd .slider.slider-horizontal {
+  width: 100%;
+}
+
+.cadastroCategory h4{
+
+    font-size: 30px;
+    color: #505050;
+}
+
+
+.cadastroCategory textarea{
+
+    resize: none;
+}
+
+.cadastroCategory label{
+
+    font-size: 18px;
+    margin: 50px 0px 20px;
+    border-bottom: 2px solid #2364ad;
+    color: #505050;
+    width: 100%;
+}
+
+.cadastroCategory input{
+
+    width: 100%;
+    padding: 10px;
+
+}
+
+.cadastroCategory .form-check p{
+
+    display: inline-block;
+    vertical-align: middle;
+    width: 15%;
+    margin: 10px 0px;
+
+}
+
+.cadastroCategory .form-check input{
+
+    display: inline-block;
+    vertical-align: middle;
+    width: 5%;
+}
+
+.list a.btn-primary{
+
+    float: right;
+}
+
+footer{
+    display: inline-block;
+    width: 100%;
+    margin-top: 50px;
+    height: 80px;
+    /*position: fixed;*/
+    /*bottom: 0px;*/
+    background-color: #eeeeee;
+    text-align: center;
+}
+
+footer small{
+    margin-left: 30px;
+    padding: 35px 0px;
+    font-size: 12px;
+    display: block;
+}
+
+@media (max-width: 1280px) {
+  .container {
+    width: 100%;
+  }
+
+}

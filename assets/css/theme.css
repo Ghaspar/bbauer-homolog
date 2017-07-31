@@ -189,6 +189,13 @@ body {
   margin: 0 auto;
 }
 
+.banner .banner_category {
+  background: url(../images/banner_category.jpg) center center no-repeat;
+  display: inline-block;
+  width: 100%;
+  height: 525px;
+}
+
 header .menu {
   position: absolute;
   z-index: 999;
@@ -606,7 +613,7 @@ main.category .show_category .oferta-box:hover .hover-info {
   z-index: 999;
   display: block;
   width: 100%;
-  height: 210px;
+  height: 235px;
 }
 
 .banner-page-single-prod {
@@ -961,6 +968,124 @@ section.contato .form-contato form button {
   border: none;
 }
 
+section.representante {
+  padding: 160px 0px;
+  background: #e1e1e1;
+  /* For browsers that do not support gradients */
+  background: -webkit-gradient(linear, left top, left bottom, from(#e1e1e1), to(#ffffff));
+  background: -webkit-linear-gradient(#e1e1e1, #ffffff);
+  background: -moz-linear-gradient(#e1e1e1, #ffffff);
+  background: -o-linear-gradient(#e1e1e1, #ffffff);
+  background: linear-gradient(#e1e1e1, #ffffff);
+  /* Standard syntax */
+}
+
+section.representante .row {
+  margin-top: 40px;
+}
+
+section.representante h3 {
+  font-size: 36px;
+  color: #252525;
+  text-align: center;
+}
+
+section.representante h5 {
+  text-transform: uppercase;
+  color: #c2c2c2;
+  font-size: 12px;
+  margin: 15px 0px 7px;
+}
+
+section.representante p {
+  font-size: 14px;
+  color: #a5a5a5;
+  margin: 40px 0px;
+}
+
+section.representante span {
+  margin: 50px 0px 10px;
+  text-align: center;
+  display: block;
+}
+
+section.representante strong {
+  color: #6c6c6c;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+section.representante #map {
+  width: 100%;
+  height: 400px;
+  background-color: grey;
+}
+
+section.representante #pac-input {
+  width: 100%;
+  margin: 0px 0px 20px;
+  padding: 10px;
+}
+
+section.representante .form-representante form input {
+  padding: 10px;
+  font-family: "Roboto";
+  color: #252525;
+  background-color: #fafafa;
+  border: 1px solid #dadada;
+  margin: 10px 5px;
+}
+
+section.representante .form-representante form input:nth-of-type(1) {
+  width: 98%;
+}
+
+section.representante .form-representante form input:nth-of-type(2) {
+  width: 33%;
+}
+
+section.representante .form-representante form input:nth-of-type(3) {
+  width: 63%;
+}
+
+section.representante .form-representante form input:nth-of-type(4) {
+  width: 63%;
+}
+
+section.representante .form-representante form select {
+  padding: 10px;
+  font-family: "Roboto";
+  color: #252525;
+  width: 105px;
+  margin: 10px 5px;
+  background-color: #fafafa;
+  border: 1px solid #dadada;
+}
+
+section.representante .form-representante form textarea {
+  resize: none;
+  width: 98%;
+  height: 100px;
+  padding: 10px;
+  font-family: "Roboto";
+  color: #252525;
+  margin: 10px 5px;
+  background-color: #fafafa;
+  border: 1px solid #dadada;
+}
+
+section.representante .form-representante form button {
+  background-color: #03509e;
+  padding: 15px 15px;
+  width: 220px;
+  color: #ffffff;
+  margin: 10px 5px;
+  letter-spacing: 7px;
+  font-weight: bold;
+  outline: none;
+  border: none;
+}
+
 section.suporte {
   padding-top: 200px;
   text-align: center;
@@ -1024,6 +1149,249 @@ section.suporte strong {
   font-weight: bold;
 }
 
+section.carrinh_step1 {
+  padding-top: 200px;
+  text-align: center;
+  background: #e1e1e1;
+  /* For browsers that do not support gradients */
+  background: -webkit-gradient(linear, left top, left bottom, from(#e1e1e1), to(#ffffff));
+  background: -webkit-linear-gradient(#e1e1e1, #ffffff);
+  background: -moz-linear-gradient(#e1e1e1, #ffffff);
+  background: -o-linear-gradient(#e1e1e1, #ffffff);
+  background: linear-gradient(#e1e1e1, #ffffff);
+  /* Standard syntax */
+}
+
+section.carrinh_step1 .quantity {
+  position: relative;
+  margin: 0 auto;
+  display: inline-block;
+  margin: 55px 0px 30px;
+}
+
+section.carrinh_step1 input[type=number]::-webkit-inner-spin-button,
+section.carrinh_step1 input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+section.carrinh_step1 input[type=number] {
+  -moz-appearance: textfield;
+}
+
+section.carrinh_step1 .quantity input {
+  width: 45px;
+  height: 42px;
+  line-height: 1.65;
+  float: left;
+  display: block;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  border: 1px solid #eee;
+}
+
+section.carrinh_step1 .quantity input:focus {
+  outline: 0;
+}
+
+section.carrinh_step1 .quantity-nav {
+  float: left;
+  position: relative;
+  height: 42px;
+}
+
+section.carrinh_step1 .quantity-button {
+  position: relative;
+  cursor: pointer;
+  border-left: 1px solid #eee;
+  width: 20px;
+  text-align: center;
+  color: #333;
+  font-size: 13px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+  line-height: 1.7;
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+section.carrinh_step1 .quantity-button.quantity-up {
+  position: absolute;
+  height: 50%;
+  top: 0;
+  left: 30px;
+  font-size: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+section.carrinh_step1 .quantity-button.quantity-down {
+  position: absolute;
+  bottom: -1px;
+  height: 50%;
+  right: 40px;
+  font-size: 20px;
+  top: 0px;
+}
+
+section.carrinh_step1 .carrinho {
+  display: inline-block;
+  width: 100%;
+}
+
+section.carrinh_step1 .carrinho img {
+  max-width: 150px;
+  margin: 35px 0px;
+}
+
+section.carrinh_step1 h5 {
+  color: #a5a5a5;
+  font-size: 14px;
+}
+
+section.carrinh_step1 p {
+  margin: 55px 0px 30px;
+}
+
+section.carrinh_step1 .btns {
+  padding: 50px 0px;
+}
+
+section.carrinh_step1 .btns a:nth-of-type(1) {
+  width: 250px;
+  background-color: #fafafa;
+  border: 1px solid #9fa3a7;
+  padding: 15px 20px;
+  margin: 0px 30px;
+  color: #9fa3a7;
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 12px;
+}
+
+section.carrinh_step1 .btns a:nth-of-type(2) {
+  width: 250px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #03509e;
+  border: 1px solid #9fa3a7;
+  padding: 15px 20px;
+  margin: 0px 30px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+section.carrinh_step2 {
+  padding-top: 200px;
+  text-align: center;
+  background: #e1e1e1;
+  /* For browsers that do not support gradients */
+  background: -webkit-gradient(linear, left top, left bottom, from(#e1e1e1), to(#ffffff));
+  background: -webkit-linear-gradient(#e1e1e1, #ffffff);
+  background: -moz-linear-gradient(#e1e1e1, #ffffff);
+  background: -o-linear-gradient(#e1e1e1, #ffffff);
+  background: linear-gradient(#e1e1e1, #ffffff);
+  /* Standard syntax */
+}
+
+section.carrinh_step2 .form-carrinho form input {
+  padding: 10px;
+  font-family: "Roboto";
+  color: #252525;
+  background-color: #fafafa;
+  border: 1px solid #dadada;
+  margin: 10px 5px;
+}
+
+section.carrinh_step2 .form-carrinho form input:nth-of-type(1) {
+  width: 98%;
+}
+
+section.carrinh_step2 .form-carrinho form input:nth-of-type(2) {
+  width: 33%;
+}
+
+section.carrinh_step2 .form-carrinho form input:nth-of-type(3) {
+  width: 63%;
+}
+
+section.carrinh_step2 .form-carrinho form input:nth-of-type(4) {
+  width: 80%;
+}
+
+section.carrinh_step2 .form-carrinho form select {
+  padding: 10px;
+  font-family: "Roboto";
+  color: #252525;
+  width: 105px;
+  margin: 10px 5px;
+  background-color: #fafafa;
+  border: 1px solid #dadada;
+}
+
+section.carrinh_step2 .form-carrinho form textarea {
+  resize: none;
+  width: 98%;
+  height: 100px;
+  padding: 10px;
+  font-family: "Roboto";
+  color: #252525;
+  margin: 10px 5px;
+  background-color: #fafafa;
+  border: 1px solid #dadada;
+}
+
+section.carrinh_step2 .form-carrinho form button {
+  background-color: #03509e;
+  padding: 15px 15px;
+  width: 220px;
+  color: #ffffff;
+  margin: 10px 5px;
+  letter-spacing: 7px;
+  font-weight: bold;
+  outline: none;
+  border: none;
+}
+
+section.carrinh_step2 .btns {
+  padding: 50px 0px;
+}
+
+section.carrinh_step2 .btns a:nth-of-type(1) {
+  width: 250px;
+  background-color: #fafafa;
+  border: 1px solid #9fa3a7;
+  padding: 15px 20px;
+  margin: 0px 30px;
+  color: #9fa3a7;
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 12px;
+}
+
+section.carrinh_step2 .btns a:nth-of-type(2) {
+  width: 250px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #03509e;
+  border: 1px solid #9fa3a7;
+  padding: 15px 20px;
+  margin: 0px 30px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 @media (max-width: 1280px) {
   .container {
     width: 100%;
@@ -1034,6 +1402,10 @@ section.suporte strong {
 }
 
 @media (max-width: 991px) {
+
+  .hidden-mobile{
+      display: none!important;
+  }
   header .button-menu-mobile {
     display: inline-block !important;
     width: 100%;
